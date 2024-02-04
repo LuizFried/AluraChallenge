@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Russo+One&family=Sixtyfour&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* body */
+.html, body {
+    height: 100%;
+}
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, grey, lightblue);
+     
+   
+    
+
+}
+/* primeiro compartimento linha do logo*/
+.container__1{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo {
+    width: 10vw;
+    height: 10vh;
+    margin: 1%;
+
+}
+
+.Titulo__principal{
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 20%;
+    font-family: 'Sixtyfour', sans-serif;
+    font-size: 170%;
+    color: #DCEDC8;
+
+    
+}
+
+/* segundo compartimento linha textbox, botoes, input */
+
+.container__2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    margin-left: 8%;
+
+
+}
+
+.texto_div{
+    width: 50vw;
+    height: 45vh;
+    background-color: black;
+    color: rgb(3, 179, 3);
+    font-family: 'Sixtyfour', sans-serif;
+    font-size: 60%;
+    margin: 1%;
+    word-wrap: break-word;
+    border: 2px solid grey;
+    padding: 2%;
+    border-radius: 3%;
+}
+
+.container__2__figure{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1%;
+    color: black;
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 50%;
+}
+
+.texto_vector{
+    margin-left: 1vw;
+    margin-top: 1vh;
+    color: black;
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 1vw 1vh;
+
+}
+
+.container__2__botoes{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 2%;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1%;
+}
+
+.botao_encrip{
+    width: 25vw;
+    height: 8vh;
+    padding: 1%;
+
+}
+
+.botao_descrip{
+    width: 25vw;
+    height: 8vh;
+    padding: 1%;
+
+}
+
+/*terceiro compartimento ancora*/
+.container__3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-left: 8%;
+
+
+}
+
+.container__2__textbox{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 60vh;
+    background-color: lightblue;
+    margin-left: 5%;
+    margin-top: 0.5%;
+    word-wrap: break-word;
+    border: 2px solid grey;
+    padding: 2%;
+    align-items: center;
+    border-radius: 4%;
+    background: transparent
+}
+
+.caixadetexto{
+    width: 20vw;
+    height: 40vh;
+    padding: 3%;
+    background: white;
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 60%;
+
+}
+
+.copiartexto{
+    width: 20vw;
+    height: 7vh;
+    margin-top: 6%;
+    padding: 1%;
+
+}
+
+.container__3{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.Github{
+    outline: none;
+    margin-left: 3%;
+    color: black;
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 70%;
+ 
+}
+
