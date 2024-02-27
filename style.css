@@ -155,15 +155,18 @@ body{
     background: transparent
 }
 
-.caixadetexto{
-    width: 18rem;
-    height: 70rem;
-    padding: 3%;
-    background: white;
-    font-family: 'Press Start 2P', system-ui;
-    font-size: 60%;
-    
-
+   
+.caixadetexto {
+    width: 100%; 
+    max-width: 600px; 
+    height: auto;
+    max-height: 300px;
+    padding: 10px;
+    background-color: lightblue;
+    border: 2px solid grey;
+    border-radius: 5px;
+    resize: vertical; 
+    overflow: auto; 
 }
 
 .copiartexto{
