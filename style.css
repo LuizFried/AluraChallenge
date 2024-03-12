@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Russo+One&family=Sixtyfour&display=swap');
 
 
-
 *{
     margin: 0;
     padding: 0;
@@ -33,29 +32,30 @@ body{
 .container__1{
     display: flex;
     flex-direction: row;
-    box-sizing: border-box;
+    box-sizing: content-box;
 
 }
 
 .logo {
-    width: 10vw;
-    height: 10vh;
+    width: 4rem;
+    height: 4rem;
     margin: 1%;
 
 }
 
 .Titulo__principal{
-    width: 90vw;
-    height: 10vh;
+    width: 50rem;
+    height:4rem;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 5%;
-    margin-right: 20%;
+    margin-top: 5%; 
+    margin-right: 20%; 
     font-family: 'Sixtyfour', sans-serif;
-    font-size: 170%;
+    font-size: 2rem;
     color: #DCEDC8;
+    box-sizing: border-box;
 
     
 }
@@ -164,7 +164,7 @@ body{
     max-width: 600px; 
     height: auto;
     max-height: 300px;
-    padding: 10px;
+    padding: 0.8rem;
     background-color: lightblue;
     border: 2px solid grey;
     border-radius: 5px;
@@ -174,7 +174,8 @@ body{
 
 .copiartexto{
     width: 20vw;
-    height: 7vh;
+    height: 6vh;
+    min-height: 6vh;
     margin-top: 6%;
     padding: 1%;
     font-size: 0.7rem;
@@ -194,18 +195,26 @@ body{
 .image_git{
     width: 1rem;
     height: 1rem;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.4rem;
+    transition: transform 0.3s ease-in-out;
+    vertical-align: middle;
 }
 
 .Github{
     outline: none;
     color: black;
     font-family: 'Press Start 2P', system-ui;
-    font-size: 70%;
+    font-size: 0.7rem;
+    vertical-align: middle;
  
 }
 
+.image_git:hover{
+    color: grey;
+    transform: scale(1.1);
+}
 
 .Github:hover{
     color: grey;
+    transform: scale(1.1);
 }
